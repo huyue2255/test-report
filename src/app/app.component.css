@@ -1,0 +1,44 @@
+/* .example-card {
+    max-width: 400px;
+  }
+  */
+  
+/* @import '~https://fonts.googleapis.com/icon?family=Material+Icons';    
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';     */
+.mat-card  {    
+    text-align: -webkit-center; 
+    font-size: 20px;
+    font-family: verdana;
+    /* margin-left: 500px;
+    padding-left: 100px; */
+    /* height: 50%;
+    width: 50%; */
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-right: 30%;
+    width:50%;
+} 
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+  .example-full-width {
+    width: 100%;
+}
+
+.example-card.mat-card{
+    height:377px;
+
+}
+  
+.errormsg {
+    display: inline; 
+    float:left; 
+    width: 300px; 
+    word-wrap: break-word;
+    text-align: left;
+    color: red;
+}
+
